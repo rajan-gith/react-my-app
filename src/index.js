@@ -2,10 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
-import Demo from './Demo';
+import Avatar from './Avatar';
 import * as serviceWorker from './serviceWorker';
 
-ReactDOM.render(<Demo name="Rajan"/>, document.getElementById('root'));
+ReactDOM.render(<Avatar name=""/>, document.getElementById('root'));
 
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
